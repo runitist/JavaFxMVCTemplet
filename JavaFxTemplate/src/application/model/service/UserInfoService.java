@@ -12,7 +12,7 @@ public class UserInfoService {
 		return ui.getUserInfo();
 	}
 	
-	public void getltv(LoginTestVO ltv) {
+	public void setltv(LoginTestVO ltv) {
 		ui.setUserInfo(ltv);
 	}
 
